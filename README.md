@@ -10,8 +10,9 @@ Contains commonly-used, time-saving functions, easily accessible anywhere in a p
 * `_.dSine(i, steps)`returns a sine curve (starting at 0, going up to 1 then returning to 0), having gone *i/steps* of the way along the x axis, giving a nice smooth curve.
 * `_.dPos(i, steps, origPos, diffPos)` uses _.dSine() to return a Vector3 representing a point in space between (*origPos*) and (*origPos + diffPos*), that is `_.dSine(i, steps)` of the way along the two. Used for moving a *gameObject* from its original point (*origPos*) to another point (*origPos + diffPos*) during *steps* frames in a smooth fashion, like so:
     ```
-	// The GameObject is 
-    Vector3 origPos = 
+	// The object to be moved is gameObject
+    Vector3 origPos = gameObject.transform.position;
+    Vector3 diffPos = Vector3.up * 10f;
     for(var i = 0; i < steps; i++){
         gameObject.transform.position = _.dPos(i,steps,origPos,diffPos);
         yield return new WaitForEndOfFrame();
@@ -20,6 +21,6 @@ Contains commonly-used, time-saving functions, easily accessible anywhere in a p
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDA4MDMzMiwxMTQyNTk5NDg1LC0xOD
+eyJoaXN0b3J5IjpbLTkxMTAzODE0NiwxMTQyNTk5NDg1LC0xOD
 EzNjA4MywtMTA1NzAxMzg4Nl19
 -->
