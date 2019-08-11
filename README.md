@@ -1,7 +1,8 @@
 # Unity
 Scripts I found useful for Unity 3D.
 ## _.cs
-Contains commonly used, time-saving functions, easily accessible anywhere in a project through _.func(). ***Put anywhere in the project hierarchy to make it work.***
+Contains commonly used, time-saving functions, easily accessible anywhere in a project through _.func(). 
+***Put anywhere in the project hierarchy to make it work.***
 * **`_.log(message)`** provides a faster way to print to the console than `Debug.Log()`.
 * **`_.i(keycode)`** allows a user to quickly check whether most keys are pressed (such as _.i("a") for the **a** key or _.i("left") for the left key, find all keycodes [here](https://docs.unity3d.com/ScriptReference/KeyCode.html)).
 * **`_.v(x,y,z)`** is shorthand for `new Vector3(x,y,z)`.
@@ -20,15 +21,17 @@ Contains commonly used, time-saving functions, easily accessible anywhere in a p
     }
     ```
 ## f5.cs
-Allows easy access to the `Play` button in Unity by mapping the **F5** key to it. ***Put anywhere in the project hierarchy to make it work.***
+Allows easy access to the `Play` button in Unity by mapping the **F5** key to it. 
+***Put anywhere in the project hierarchy to make it work.***
 
 ## camScript.cs
-Lets a user with a 3DConnexion CAD mouse and the [SpaceNavigator Driver](https://github.com/PatHightree/SpaceNavigator) Unity Asset move around the camera at runtime.
+Lets a user with a 3DConnexion CAD mouse and the [SpaceNavigator Driver](https://github.com/PatHightree/SpaceNavigator) Unity Asset move around the camera at runtime. If you want the current camera position drawn on the screen, place a *Text (UI)* element
+
 ***Drag onto the main camera to make it work.***
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDg3MzI3NiwtMjEzMDUxMTc0LC04ND
+eyJoaXN0b3J5IjpbLTg3ODc4NDAzMCwtMjEzMDUxMTc0LC04ND
 gxMzk3NzUsMTE0MjU5OTQ4NSwtMTgxMzYwODMsLTEwNTcwMTM4
 ODZdfQ==
 -->
