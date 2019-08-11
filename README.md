@@ -23,10 +23,11 @@ Contains commonly used, time-saving functions, easily accessible anywhere in a p
 Allows easy access to the `Play` button in Unity by mapping the **F5** key to it. ***Put anywhere in the project hierarchy to make it work.***
 
 ## camScript.cs
+Lets a user with a 3DConnexion CAD mouse and 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2NjkzNDk5LC0yMTMwNTExNzQsLTg0OD
-EzOTc3NSwxMTQyNTk5NDg1LC0xODEzNjA4MywtMTA1NzAxMzg4
-Nl19
+eyJoaXN0b3J5IjpbLTM5NjUyNzU5OCwtMjEzMDUxMTc0LC04ND
+gxMzk3NzUsMTE0MjU5OTQ4NSwtMTgxMzYwODMsLTEwNTcwMTM4
+ODZdfQ==
 -->
