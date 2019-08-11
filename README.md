@@ -8,15 +8,18 @@ Contains commonly-used, time-saving functions, easily accessible anywhere in a p
 * `_.toggleRenderer(gameObject, mode)` toggles either the *GameObject* *Renderer* itself, or (if it's a parent *GameObject* with children *Renderer*s) the children *Renderer*s. Depending on *mode*, the renderer is either toggled from its previous state (-1), disabled (0), or enabled (1).
 * `_.toggleRenderers(mode, gameObjects[])` uses `_.toggleRenderer()` for several *GameObjects* at once.
 * `_.dSine(i, steps)`returns a sine curve (starting at 0, going up to 1 then returning to 0), having gone *i/steps* of the way along the x axis, giving a nice smooth curve.
-* `_.dPos(i, steps, origPos, diffPos)` uses _.dSine() to return a Vector3 representing a point in space between (*origPos*) and (*origPos + diffPos*), that is `_.dSine(i, steps)` of the way along the two. Used for moving a *gameObject* from its original point (*origPos*) to another point (*origPos + diffPos*) during *steps* frames in a smooth fashion, thusly:
+* `_.dPos(i, steps, origPos, diffPos)` uses _.dSine() to return a Vector3 representing a point in space between (*origPos*) and (*origPos + diffPos*), that is `_.dSine(i, steps)` of the way along the two. Used for moving a *gameObject* from its original point (*origPos*) to another point (*origPos + diffPos*) during *steps* frames in a smooth fashion, like so:
     ```
+	// The GameObject is 
+    Vector3 origPos = 
     for(var i = 0; i < steps; i++){
-        gameObject.transform.position = 
+        gameObject.transform.position = _.dPos(i,steps,origPos,diffPos);
+        yield return new WaitForEndOfFrame();
     }
     ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODcwOTYyMTUsMTE0MjU5OTQ4NSwtMT
-gxMzYwODMsLTEwNTcwMTM4ODZdfQ==
+eyJoaXN0b3J5IjpbMTM1NDA4MDMzMiwxMTQyNTk5NDg1LC0xOD
+EzNjA4MywtMTA1NzAxMzg4Nl19
 -->
