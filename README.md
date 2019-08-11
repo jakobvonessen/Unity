@@ -18,8 +18,10 @@ Contains commonly used, time-saving functions, easily accessible anywhere in a p
         gameObject.transform.position = _.dPos(i,steps,origPos,diffPos);
         yield return new WaitForEndOfFrame();
     }
-    ``
+    ```
+## f5.cs
+Allows easy access to the play/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4NTE3MTIyLC04NDgxMzk3NzUsMTE0Mj
-U5OTQ4NSwtMTgxMzYwODMsLTEwNTcwMTM4ODZdfQ==
+eyJoaXN0b3J5IjpbLTIxMzA1MTE3NCwtODQ4MTM5Nzc1LDExND
+I1OTk0ODUsLTE4MTM2MDgzLC0xMDU3MDEzODg2XX0=
 -->
