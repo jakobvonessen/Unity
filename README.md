@@ -8,9 +8,9 @@ Contains commonly-used, time-saving functions, easily accessible anywhere in a p
 * `_.toggleRenderer(gameObject, mode)` toggles either the *GameObject* *Renderer* itself, or (if it's a parent *GameObject* with children *Renderer*s) the children *Renderer*s. Depending on *mode*, the renderer is either toggled from its previous state (-1), disabled (0), or enabled (1).
 * `_.toggleRenderers(mode, gameObjects[])` uses `_.toggleRenderer()` for several *GameObjects* at once.
 * `_.dSine(i, steps)`returns a sine curve (going between 0 and 1), having gone *i/steps* of the way along the x axis, giving a nice smooth curve.
-* `_.dPos(i, steps, origPos, diffPos)` uses _.dSine() to return a Vector3 representing a point in space between (*origPos* and *origPos + diffPos*
+* `_.dPos(i, steps, origPos, diffPos)` uses _.dSine() to return a Vector3 representing a point in space between (*origPos*) and (*origPos + diffPos*), that is `_.dSine(i, steps)` of the way along the two. Used for moving a *gameObject*'s *transform* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Mzc1OTQxMywxMTQyNTk5NDg1LC0xOD
-EzNjA4MywtMTA1NzAxMzg4Nl19
+eyJoaXN0b3J5IjpbLTkxMDU1MjkyLDExNDI1OTk0ODUsLTE4MT
+M2MDgzLC0xMDU3MDEzODg2XX0=
 -->
