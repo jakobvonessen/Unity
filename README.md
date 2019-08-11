@@ -7,10 +7,10 @@ Contains commonly-used, time-saving functions, easily accessible anywhere in a p
 * `_.v(x,y,z)` is shorthand for `new Vector3(x,y,z)``
 * `_.toggleRenderer(gameObject, mode)` toggles either the *GameObject* *Renderer* itself, or (if it's a parent *GameObject* with children *Renderer*s) the children *Renderer*s. Depending on *mode*, the renderer is either toggled from its previous state (-1), disabled (0), or enabled (1).
 * `_.toggleRenderers(mode, gameObjects[])` uses `_.toggleRenderer()` for several *GameObjects* at once.
-* `_.dSine(i, steps)`returns a sine curve (going between 0 and 1)
+* `_.dSine(i, steps)`returns a sine curve (going between 0 and 1), having gone **i/steps**
 * `_.dPos(i, steps, origPos, diffPos)`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjU5OTQ4NSwtMTgxMzYwODMsLTEwNT
-cwMTM4ODZdfQ==
+eyJoaXN0b3J5IjpbMTk2MTgzMzI2NCwxMTQyNTk5NDg1LC0xOD
+EzNjA4MywtMTA1NzAxMzg4Nl19
 -->
