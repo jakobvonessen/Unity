@@ -20,8 +20,9 @@ Contains commonly used, time-saving functions, easily accessible anywhere in a p
     }
     ```
 ## f5.cs
-Allows easy access to the play/
+Allows easy access to the `Play` button in Unity by mapping the **F5** key to it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzA1MTE3NCwtODQ4MTM5Nzc1LDExND
-I1OTk0ODUsLTE4MTM2MDgzLC0xMDU3MDEzODg2XX0=
+eyJoaXN0b3J5IjpbLTE0MjQxMDUzNDEsLTIxMzA1MTE3NCwtOD
+Q4MTM5Nzc1LDExNDI1OTk0ODUsLTE4MTM2MDgzLC0xMDU3MDEz
+ODg2XX0=
 -->
