@@ -1,7 +1,7 @@
 # Unity
 Scripts I found useful for Unity 3D.
 ## _.cs
-Contains commonly used, time-saving functions, easily accessible anywhere in a project through _.func().
+Contains commonly used, time-saving functions, easily accessible anywhere in a project through _.func(). ***Put anywhere in the project hierarchy to make it work.***
 * **`_.log(message)`** provides a faster way to print to the console than `Debug.Log()`.
 * **`_.i(keycode)`** allows a user to quickly check whether most keys are pressed (such as _.i("a") for the **a** key or _.i("left") for the left key, find all keycodes [here](https://docs.unity3d.com/ScriptReference/KeyCode.html)).
 * **`_.v(x,y,z)`** is shorthand for `new Vector3(x,y,z)`.
@@ -20,9 +20,11 @@ Contains commonly used, time-saving functions, easily accessible anywhere in a p
     }
     ```
 ## f5.cs
-Allows easy access to the `Play` button in Unity by mapping the **F5** key to it.
+Allows easy access to the `Play` button in Unity by mapping the **F5** key to it. ***Put anywhere in the project hierarchy to make it work.***
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQxMDUzNDEsLTIxMzA1MTE3NCwtOD
-Q4MTM5Nzc1LDExNDI1OTk0ODUsLTE4MTM2MDgzLC0xMDU3MDEz
-ODg2XX0=
+eyJoaXN0b3J5IjpbMjA4MTIyNzUwNSwtMjEzMDUxMTc0LC04ND
+gxMzk3NzUsMTE0MjU5OTQ4NSwtMTgxMzYwODMsLTEwNTcwMTM4
+ODZdfQ==
 -->
