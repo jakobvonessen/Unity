@@ -28,12 +28,11 @@ Allows easy access to the `Play` button in Unity by mapping the **F5** key to it
 Lets a user with a 3DConnexion CAD mouse and the [SpaceNavigator Driver](https://github.com/PatHightree/SpaceNavigator) Unity Asset move around the camera at runtime. 
 If you want the current camera position drawn on the screen, place a *Text (UI)* object anywhere in the active scene.
 Controls can be paused by calling `camScript.active = false;` from another script.
-
 ***Drag onto the main camera to make it work.***
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc2MjQ3NTUsLTIxMzA1MTE3NCwtOD
-Q4MTM5Nzc1LDExNDI1OTk0ODUsLTE4MTM2MDgzLC0xMDU3MDEz
-ODg2XX0=
+eyJoaXN0b3J5IjpbLTc2MDM2MjAxNywtMjEzMDUxMTc0LC04ND
+gxMzk3NzUsMTE0MjU5OTQ4NSwtMTgxMzYwODMsLTEwNTcwMTM4
+ODZdfQ==
 -->
