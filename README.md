@@ -23,11 +23,12 @@ Contains commonly used, time-saving functions, easily accessible anywhere in a p
 Allows easy access to the `Play` button in Unity by mapping the **F5** key to it. ***Put anywhere in the project hierarchy to make it work.***
 
 ## camScript.cs
-Lets a user with a 3DConnexion CAD mouse and the [SpaceNavigator Driver](https://github.com/PatHightree/SpaceNavigator) Unity Asset move around at runtime.
+Lets a user with a 3DConnexion CAD mouse and the [SpaceNavigator Driver](https://github.com/PatHightree/SpaceNavigator) Unity Asset move around the camera at runtime.
+***Drag onto the main camera to make it work.***
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI2ODIwOTAsLTIxMzA1MTE3NCwtOD
-Q4MTM5Nzc1LDExNDI1OTk0ODUsLTE4MTM2MDgzLC0xMDU3MDEz
-ODg2XX0=
+eyJoaXN0b3J5IjpbMTc5NDg3MzI3NiwtMjEzMDUxMTc0LC04ND
+gxMzk3NzUsMTE0MjU5OTQ4NSwtMTgxMzYwODMsLTEwNTcwMTM4
+ODZdfQ==
 -->
