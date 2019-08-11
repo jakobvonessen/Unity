@@ -12,7 +12,8 @@ Contains commonly-used, time-saving functions, easily accessible anywhere in a p
     ```
 	// The object to be moved is gameObject
     Vector3 origPos = gameObject.transform.position;
-    Vector3 diffPos = Vector3.up * 10f;
+    Vector3 diffPos = Vector3.up * 10;
+    float steps = 40;
     for(var i = 0; i < steps; i++){
         gameObject.transform.position = _.dPos(i,steps,origPos,diffPos);
         yield return new WaitForEndOfFrame();
@@ -21,6 +22,6 @@ Contains commonly-used, time-saving functions, easily accessible anywhere in a p
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTAzODE0NiwxMTQyNTk5NDg1LC0xOD
+eyJoaXN0b3J5IjpbLTg0ODEzOTc3NSwxMTQyNTk5NDg1LC0xOD
 EzNjA4MywtMTA1NzAxMzg4Nl19
 -->
